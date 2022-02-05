@@ -234,8 +234,8 @@ select {
 }
 .blog-form .form-container form .inputEndDate{
   display: flex;
-  justify-content: flex-start;
   
+
   
 }
 .blog-form form input[type=date]{
