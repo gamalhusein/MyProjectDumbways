@@ -24,13 +24,13 @@ nav ul li a.list-active {
 }
 
 .left-side{
-  padding-left: 90px;
+  padding-left: 5px;
 }
 
 .right-side{
   display: flex;
   justify-content: flex-end;
-  padding-right: 90px;
+  padding-right: 5px;
 }
 
 nav ul{
@@ -200,10 +200,12 @@ select {
   padding: 50px 0;
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .blog-form .form-container {
-  width: 500px;
+  
+  width: 550px;
 }
 
 .blog-form .form-container h1 {
@@ -212,8 +214,9 @@ select {
 }
 
 .blog-form form label {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
+  
 }
 
 .blog-form form input,
@@ -229,10 +232,20 @@ select {
   border: 1px solid #c4c4c4;
   border-radius: 8px;
 }
-
-.blog-form form textarea {
-  height: 250px;
+.blog-form .form-container form .inputEndDate{
+  display: flex;
+  justify-content: flex-start;
+  
+  
 }
+.blog-form form input[type=date]{
+  width: 300px;
+}
+.blog-form form textarea {
+  height: 150px;
+}
+
+
 
 .blog-form form .input-blog-image-group {
   width: 100%;
@@ -351,6 +364,8 @@ select {
   line-height: 20px;
   text-align: justify;
 }
+
+
 
 /* Blog Detail */
 .blog-detail {
